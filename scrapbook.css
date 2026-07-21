@@ -45,14 +45,14 @@ body{
 .music{
     width:220px;
 
-    left:6%;
+    left:8%;
     top:8%;
 
-    transform:rotate(-10deg);
+    transform:rotate(-20deg);
 }
 
 .music:hover{
-    transform:rotate(-10deg) scale(1.08);
+    transform:rotate(-20deg) scale(1.08);
 }
 
 .letter{
@@ -62,7 +62,7 @@ body{
     right:8%;
     top:9%;
 
-    transform:rotate(7deg);
+    transform:rotate(30deg);
 }
 
 .letter:hover{
@@ -71,7 +71,7 @@ body{
 
 .photos{
 
-    width:230px;
+    width:200px;
 
     left:10%;
     bottom:10%;
@@ -99,7 +99,7 @@ body{
 
 .story{
 
-    width:170px;
+    width:250px;
 
     left:37%;
     top:7%;
@@ -113,7 +113,7 @@ body{
 
 .voice{
 
-    width:150px;
+    width:200px;
 
     right:34%;
     top:12%;
@@ -127,12 +127,12 @@ body{
 
 .calendar{
 
-    width:170px;
+    width:250px;
 
     left:44%;
     bottom:8%;
 
-    transform:rotate(-3deg);
+    transform:rotate(-10deg);
 }
 
 .calendar:hover{
@@ -141,7 +141,7 @@ body{
 
 .album{
 
-    width:190px;
+    width:300px;
 
     left:50%;
     top:38%;
