@@ -1,0 +1,154 @@
+/*========== RESET ==========*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    font-family:Georgia,serif;
+    background:#e9ddcc;
+}
+
+/*========== SCRAPBOOK PAGE ==========*/
+
+.scrapbook{
+    position:relative;
+    width:100vw;
+    height:100vh;
+
+    background:url("assets/scrapbook-bg.jpg") center/cover no-repeat;
+    overflow:hidden;
+}
+
+/*========== SHARED ITEM STYLING ==========*/
+
+.item{
+    position:absolute;
+    cursor:pointer;
+
+    user-select:none;
+
+    transition:
+        transform .35s ease,
+        filter .35s ease;
+}
+
+.item:hover{
+
+    filter:drop-shadow(0 15px 25px rgba(0,0,0,.22));
+
+}
+
+.music{
+    width:220px;
+
+    left:6%;
+    top:8%;
+
+    transform:rotate(-10deg);
+}
+
+.music:hover{
+    transform:rotate(-10deg) scale(1.08);
+}
+
+.letter{
+
+    width:210px;
+
+    right:8%;
+    top:9%;
+
+    transform:rotate(7deg);
+}
+
+.letter:hover{
+    transform:rotate(7deg) scale(1.08);
+}
+
+.photos{
+
+    width:230px;
+
+    left:10%;
+    bottom:10%;
+
+    transform:rotate(5deg);
+}
+
+.photos:hover{
+    transform:rotate(5deg) scale(1.08);
+}
+
+.videos{
+
+    width:190px;
+
+    right:12%;
+    bottom:11%;
+
+    transform:rotate(-8deg);
+}
+
+.videos:hover{
+    transform:rotate(-8deg) scale(1.08);
+}
+
+.story{
+
+    width:170px;
+
+    left:37%;
+    top:7%;
+
+    transform:rotate(4deg);
+}
+
+.story:hover{
+    transform:rotate(4deg) scale(1.08);
+}
+
+.voice{
+
+    width:150px;
+
+    right:34%;
+    top:12%;
+
+    transform:rotate(-6deg);
+}
+
+.voice:hover{
+    transform:rotate(-6deg) scale(1.08);
+}
+
+.calendar{
+
+    width:170px;
+
+    left:44%;
+    bottom:8%;
+
+    transform:rotate(-3deg);
+}
+
+.calendar:hover{
+    transform:rotate(-3deg) scale(1.08);
+}
+
+.album{
+
+    width:190px;
+
+    left:50%;
+    top:38%;
+
+    transform:translateX(-50%) rotate(2deg);
+}
+
+.album:hover{
+    transform:translateX(-50%) rotate(2deg) scale(1.08);
+}
